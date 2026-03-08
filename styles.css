@@ -1,5 +1,11 @@
  .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+     
+    }
 
     body{
       background-color: #D5E1EF;
@@ -7,7 +13,7 @@
     }
     .container{
       text-align: center;
-      width: 250px;
+      max-width: 250px;
       margin-left: auto;
       margin-right: auto;
       background-color: white;
