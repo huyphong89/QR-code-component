@@ -10,6 +10,11 @@
     body{
       background-color: #D5E1EF;
         font-family: 'Outfit', sans-serif;
+        display: flex;
+         justify-content:center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
     }
     .container{
       text-align: center;
@@ -19,6 +24,8 @@
       background-color: white;
       border-radius: 10px;
       padding: 10px;
+    
+     
     }
 
     .qr-image{
